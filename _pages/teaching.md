@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Teaching (found in _pages/teaching.md)"
 permalink: /teaching/
 author_profile: true
 ---

@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research"
+title: "Research (found in _pages/research.md)"
 permalink: /research/
 author_profile: true
 ---

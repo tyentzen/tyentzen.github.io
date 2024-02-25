@@ -1,11 +1,13 @@
 ---
 permalink: /
-title: "About me"
+title: "About me (found in _pages/about.md)"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+(Note: all files are in files/ and Profile image in images/)
 
 Nisi vitae suscipit tellus mauris a diam.
 

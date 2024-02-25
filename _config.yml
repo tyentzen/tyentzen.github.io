@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpeg"
   name             : "Triana Yentzen"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Short biography for the left-hand sidebar (found in _config.yml)"
   email            : "none@example.org"
 
   # Social media
