@@ -12,9 +12,9 @@ title                    : "Triana Yentzen"
 title_separator          : "-"
 name                     : &name "Triana Yentzen"
 description              : &description "personal description"
-url                      : https://ChiangPong.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://tyentzen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "ChiangPong/ChiangPong.github.io"
+repository               : "tyentzen/tyentzen.github.io"
 port                     : 4040
 
 # Site Author - The following control what appear as part of the author content on the side bar.
