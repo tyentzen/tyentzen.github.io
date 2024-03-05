@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me (found in _pages/about.md)"
+title: "About me: THIS ENTIRE PAGE IS STILL A WORK IN PROGRESS (found in _pages/about.md)"
 author_profile: true
 redirect_from: 
   - /about/
