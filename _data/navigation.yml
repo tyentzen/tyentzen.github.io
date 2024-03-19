@@ -7,7 +7,7 @@ main:
     url: /teaching/
     
   - title: "CV"
-    url: /files/paper1.pdf
+    url: /files/CV_yentzen.pdf
 
-  - title: "Job market paper"
-    url: /files/paper1.pdf
+  #- title: "Job market paper"
+  #  url: /files/paper1.pdf
