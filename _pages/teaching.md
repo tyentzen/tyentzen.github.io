@@ -8,6 +8,7 @@ author_profile: true
 {% include base_path %}
 
 ## Lecturer
+
 | Fall 2015 | [Economics IA - Introduction to Economics](https://telematica.usm.cl/wp-content/uploads/2020/12/ICS733-Econom%C3%ADa1A.pdf) |
 | Winter 2014 | [Economics IA - Introduction to Economics](https://telematica.usm.cl/wp-content/uploads/2020/12/ICS733-Econom%C3%ADa1A.pdf) |
 | Fall 2014 | [Economics IA - Introduction to Economics](https://telematica.usm.cl/wp-content/uploads/2020/12/ICS733-Econom%C3%ADa1A.pdf) |
