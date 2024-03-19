@@ -13,7 +13,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 ## Work in progress
 
-***Economic Conditions and Religious Adherence*** (with Eduardo Montero and Dean Yang)\
+***Economic Conditions and Religious Adherence*** (with Eduardo Montero and Dean Yang)
 
 ## Reports
 
