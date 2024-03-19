@@ -7,18 +7,18 @@ author_profile: true
 
 {% include base_path %}
 
-Read my [teaching statement](/files/paper1.pdf).
+## Lecturer
+| Fall 2015 | [Economics IA - Introduction to Economics](https://telematica.usm.cl/wp-content/uploads/2020/12/ICS733-Econom%C3%ADa1A.pdf) |
+| Winter 2014 | [Economics IA - Introduction to Economics](https://telematica.usm.cl/wp-content/uploads/2020/12/ICS733-Econom%C3%ADa1A.pdf) |
+| Fall 2014 | [Economics IA - Introduction to Economics](https://telematica.usm.cl/wp-content/uploads/2020/12/ICS733-Econom%C3%ADa1A.pdf) |
+| Winter 2013 | [ILN 210 - Intermediate Microeconomics](https://cdn.miiusm.cl/sites/2/20210903180734/Plan-de-Estudios-Magister-en-Ciencias-de-la-Ingenieria-Industrial-MIISc-USM.pdf) |
+| Fall 2013 | [ILN 210 - Intermediate Microeconomics](https://cdn.miiusm.cl/sites/2/20210903180734/Plan-de-Estudios-Magister-en-Ciencias-de-la-Ingenieria-Industrial-MIISc-USM.pdf) |
 
-## Graduate student instructor
+## Graduate Student Instructor, University of Michigan
 
-| --- | --- |
-| Fall 2023 | [Econ 452 - Intermediate introduction to statistics and econometrics II](https://google.com) |
-| Winter 2023 | [Econ 102 - Principles of economics II](https://google.com) |
-| Fall 2022 | [Econ 452 - Intermediate introduction to statistics and econometrics II](https://google.com) |
-| Winter 2022 | [Econ 452 - Intermediate introduction to statistics and econometrics II](https://google.com) |
-| Fall 2021 | [Econ 452 - Intermediate introduction to statistics and econometrics II](https://google.com) |
-| Winter 2021 | [Econ 452 - Intermediate introduction to statistics and econometrics II](https://google.com) |
-| Winter 2020 | [Econ 452 - Intermediate introduction to statistics and econometrics II](https://google.com) |
-| Fall 2019 | [Econ 452 - Intermediate introduction to statistics and econometrics II](https://google.com) |
-| Winter 2019 | [Econ 102 - Principles of economics II](https://google.com) |
-| Fall 2018 | [Econ 444 - The European economy](https://google.com) |
+| Winter 2024 | [Econ 251 - Introduction to Statistics and Econometrics II]([https://google.com](https://secure.rackham.umich.edu/course-list/course-list.php?rackham=Y&program=Economics)) |
+| Fall 2023 | [Econ 251 - Introduction to Statistics and Econometrics II]([https://google.com](https://secure.rackham.umich.edu/course-list/course-list.php?rackham=Y&program=Economics)) |
+| Winter 2023 | [Econ 251 - Introduction to Statistics and Econometrics II]([https://google.com](https://secure.rackham.umich.edu/course-list/course-list.php?rackham=Y&program=Economics)) |
+| Fall 2022 | [Econ 251 - Introduction to Statistics and Econometrics II]([https://google.com](https://secure.rackham.umich.edu/course-list/course-list.php?rackham=Y&program=Economics)) |
+| Winter 2021 | [PUBPOL 639 - Quantitative Methods for Program Evaluation (Augmented)]([https://google.com](https://fordschool.umich.edu/courses/fall/2014/pubpol-639)) |
+| Fall  2020 | [PUBPOL 479 - Evaluating Public Policies]([https://google.com](https://fordschool.umich.edu/course/fall/2020/pubpol-479-evaluating-public-policies)) |
