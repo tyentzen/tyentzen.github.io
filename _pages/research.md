@@ -11,13 +11,19 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 {% include base_path %}
 
+## Working papers
+
+Alfonso, Mariana, Matías Busso, Hugo R. Ñopo, and Triana Yentzen. Civil Service Reform and Self-Selection into Teaching: Experimental Evidence from an Information Intervention. Inter-American Development Bank, August 2019.[http://dx.doi.org/10.18235/0001832](http://dx.doi.org/10.18235/0001832).
+
 ## Work in progress
 
 ***Economic Conditions and Religious Adherence*** (with Eduardo Montero and Dean Yang)
 
-## Reports
+## Technical Reports:
 
-Alfonso, Mariana, Matías Busso, Hugo R. Ñopo, and Triana Yentzen. Civil Service Reform and Self-Selection into Teaching: Experimental Evidence from an Information Intervention. Inter-American Development Bank, August 2019.[http://dx.doi.org/10.18235/0001832](http://dx.doi.org/10.18235/0001832).
+Guernica Consultures. EVALUACIÓN DE IMPACTO DEL SUBSIDIO AL PAGO DEL CONSUMO DE AGUA POTABLE Y SERVICIO DE ALCANTARILLADO Y TRATAMIENTO DE AGUAS SERVIDAS. [Impact Evaluation of Water Subsidy, Chile](https://www.dipres.gob.cl/597/articles-139732_r_ejecutivo_institucional.pdf).
+Guernica Consultures. EVALUACIÓN DE IMPACTO PROGRAMAS FONDO SOLIDARIO DE VIVIENDA I Y II, DEL MINISTERIO DE VIVIENDA Y URBANISMO [Impact Evaluation of Housing Subsidy, Chile](https://www.dipres.gob.cl/597/articles-139732_r_ejecutivo_institucional.pdf).
+
 
 ## Research Assistant
 
