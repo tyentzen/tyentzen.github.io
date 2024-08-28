@@ -17,7 +17,7 @@ Alfonso, Mariana, Matías Busso, Hugo R. Ñopo, and Triana Yentzen. Civil Servic
 
 ## Work in progress
 
-***Economic Conditions and Religious Adherence*** (with Eduardo Montero and Dean Yang)
+***The Price of Faith: Economic Costs and Religious Group Membership in Sub-Saharan Africa*** (with Eduardo Montero and Dean Yang)
 
 ## Technical Reports:
 
