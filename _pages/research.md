@@ -13,7 +13,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 ## Working papers
 
-[The Price of Faith: Economic Costs and Religious Group Membership in Sub-Saharan Africa](https://tyentzen.github.io/files/montero-yang-yentzen-2024-price-of-faith.pdf).<br/>
+[The Price of Faith: Economic Costs and Religious Group Membership in Sub-Saharan Africa](https://tyentzen.github.io/files/montero-yang-yentzen-2024-price-of-faith.pdf)<br/>
 (with Eduardo Montero and Dean Yang)
 
 [Civil Service Reform and Self-Selection into Teaching: Experimental Evidence from an Information Intervention](http://dx.doi.org/10.18235/0001832)<br/>
