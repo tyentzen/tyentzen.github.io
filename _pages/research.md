@@ -13,11 +13,11 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 ## Working papers
 
-[Civil Service Reform and Self-Selection into Teaching: Experimental Evidence from an Information Intervention](http://dx.doi.org/10.18235/0001832)
-(with Mariana Alfonso, Matías Busso and Hugo R. Ñopo)
-
 [The Price of Faith: Economic Costs and Religious Group Membership in Sub-Saharan Africa](https://tyentzen.github.io/files/montero-yang-yentzen-2024-price-of-faith.pdf)
 (with Eduardo Montero and Dean Yang)
+
+[Civil Service Reform and Self-Selection into Teaching: Experimental Evidence from an Information Intervention](http://dx.doi.org/10.18235/0001832)
+(with Mariana Alfonso, Matías Busso and Hugo R. Ñopo)
 
 ## Work in progress
 
