@@ -27,10 +27,12 @@ Coping with Adversity: Life Cycle Shocks and Religiousness
 
 ## Technical Reports:
 
-Evaluación De Impacto Del Subsidio Al Pago Del Consumo De Agua Potable Y Servicio De Alcantarillado Y Tratamiento De Aguas Servidas [Impact Evaluation of Water Subsidy, Chile](https://www.dipres.gob.cl/597/articles-139732_r_ejecutivo_institucional.pdf)<br/>
+Evaluación De Impacto Del Subsidio Al Pago Del Consumo De Agua Potable Y Servicio De Alcantarillado Y Tratamiento De Aguas Servidas<br/>
+[Impact Evaluation of Water Subsidy, Chile](https://www.dipres.gob.cl/597/articles-139732_r_ejecutivo_institucional.pdf)<br/>
 (with Guernica Consultures)<br/>
 
-Evaluación De Impacto Programas Fondo Solidario De Vivienda I Y Ii, Del Ministerio De Vivienda Y Urbanismo [Impact Evaluation of Housing Subsidy, Chile](https://www.dipres.gob.cl/597/articles-139732_r_ejecutivo_institucional.pdf)<br/>
+Evaluación De Impacto Programas Fondo Solidario De Vivienda I Y Ii, Del Ministerio De Vivienda Y Urbanismo<br/>
+[Impact Evaluation of Housing Subsidy, Chile](https://www.dipres.gob.cl/597/articles-139732_r_ejecutivo_institucional.pdf)<br/>
 (with Guernica Consultures)
 
 
