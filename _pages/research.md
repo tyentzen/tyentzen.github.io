@@ -19,16 +19,18 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 [Civil Service Reform and Self-Selection into Teaching: Experimental Evidence from an Information Intervention](http://dx.doi.org/10.18235/0001832)<br/>
 (with Mariana Alfonso, Matías Busso and Hugo R. Ñopo)
 
+
 ## Work in progress
 
 Coping with Adversity: Life Cycle Shocks and Religiousness
 
+
 ## Technical Reports:
 
-EVALUACIÓN DE IMPACTO DEL SUBSIDIO AL PAGO DEL CONSUMO DE AGUA POTABLE Y SERVICIO DE ALCANTARILLADO Y TRATAMIENTO DE AGUAS SERVIDAS. [Impact Evaluation of Water Subsidy, Chile](https://www.dipres.gob.cl/597/articles-139732_r_ejecutivo_institucional.pdf)<br/>
+Evaluación De Impacto Del Subsidio Al Pago Del Consumo De Agua Potable Y Servicio De Alcantarillado Y Tratamiento De Aguas Servidas [Impact Evaluation of Water Subsidy, Chile](https://www.dipres.gob.cl/597/articles-139732_r_ejecutivo_institucional.pdf)<br/>
 (with Guernica Consultures)<br/>
 
-EVALUACIÓN DE IMPACTO PROGRAMAS FONDO SOLIDARIO DE VIVIENDA I Y II, DEL MINISTERIO DE VIVIENDA Y URBANISMO [Impact Evaluation of Housing Subsidy, Chile](https://www.dipres.gob.cl/597/articles-139732_r_ejecutivo_institucional.pdf)<br/>
+Evaluación De Impacto Programas Fondo Solidario De Vivienda I Y Ii, Del Ministerio De Vivienda Y Urbanismo [Impact Evaluation of Housing Subsidy, Chile](https://www.dipres.gob.cl/597/articles-139732_r_ejecutivo_institucional.pdf)<br/>
 (with Guernica Consultures)
 
 
