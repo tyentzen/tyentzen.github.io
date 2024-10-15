@@ -7,6 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
+## Guest Lecturer, University of Michigan (US)
+
+| Fall 2024 | [PUBPOL 201 - Systematic Thinking: Problems of the Day (Global Poverty Module)](https://fordschool.umich.edu/course/fall/2024/pubpol-201001-systematic-thinking-problems-day) |
+
 ## Lecturer, Universidad Tecnica Federico Santa Maria (Chile)
 
 | Fall 2015 | [Economics IA - Introduction to Economics](https://telematica.usm.cl/wp-content/uploads/2020/12/ICS733-Econom%C3%ADa1A.pdf) |
