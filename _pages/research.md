@@ -13,11 +13,15 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 ## Working papers
 
-Alfonso, Mariana, Matías Busso, Hugo R. Ñopo, and Triana Yentzen. Civil Service Reform and Self-Selection into Teaching: Experimental Evidence from an Information Intervention. Inter-American Development Bank, August 2019.[paper](http://dx.doi.org/10.18235/0001832).
+[Civil Service Reform and Self-Selection into Teaching: Experimental Evidence from an Information Intervention](http://dx.doi.org/10.18235/0001832)
+(with Mariana Alfonso, Matías Busso and Hugo R. Ñopo)
+
+[The Price of Faith: Economic Costs and Religious Group Membership in Sub-Saharan Africa](https://tyentzen.github.io/files/montero-yang-yentzen-2024-price-of-faith.pdf)
+(with Eduardo Montero and Dean Yang)
 
 ## Work in progress
 
-***The Price of Faith: Economic Costs and Religious Group Membership in Sub-Saharan Africa*** (with Eduardo Montero and Dean Yang)
+Coping with Adversity: Life Cycle Shocks and Religiousness
 
 ## Technical Reports:
 
