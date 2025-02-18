@@ -13,7 +13,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 ## Working papers
 
-[The Price of Faith: Economic Costs and Religious Adaptation in Sub-Saharan Africa](https://tyentzen.github.io/files/montero_yang_yentzen_price_of_faith_250206.pdf)<br/>
+[The Price of Faith: Economic Costs and Religious Adaptation in Sub-Saharan Africa](https://www.nber.org/papers/w33482)<br/>
 (with Eduardo Montero and Dean Yang)
 
 [Becoming a Teacher: Experimental Evidence from an Information Intervention](http://dx.doi.org/10.18235/0013244)<br/>
