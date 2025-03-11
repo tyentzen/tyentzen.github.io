@@ -98,6 +98,9 @@ analytics:
   google:
     tracking_id          :
 
+# Theme
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Reading Files
 include:
