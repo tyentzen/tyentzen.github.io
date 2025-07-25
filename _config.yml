@@ -26,11 +26,13 @@ author:
   name             : "Triana Yentzen"
   pronouns         : # example: "she/her"  
   bio              : "Economics Ph.D. Candidate, University of Michigan"
+  location         : "Ann Arbor, MI"
   email            : "trianay@umich.edu"
 
   # Social media
-  linkedin         : 'trianayentzen'
-  twitter         : 'tyentzen'
+  linkedin           : 'trianayentzen'
+  twitter            : 'tyentzen'
+  googlescholar      : "https://scholar.google.com/citations?user=6bUvgbIAAAAJ&hl=en"
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
