@@ -15,12 +15,13 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 [Becoming a Teacher: Experimental Evidence from an Information Intervention](http://dx.doi.org/10.18235/0013244)<br/>
 (with Mariana Alfonso, Matías Busso, Hugo R. Ñopo, and Antonella Rivera)<br/>
-*Accepted, International Journal of Educational Development*
+*Accepted, International Journal of Educational Development*<br/>
 
 ## Working papers
 
 [The Price of Faith: Economic Costs and Religious Adaptation in Sub-Saharan Africa](https://www.nber.org/papers/w33482)<br/>
-(with Eduardo Montero and Dean Yang)
+(with Eduardo Montero and Dean Yang)<br/>
+Media: [BFI Research Brief](https://bfi.uchicago.edu/insights/the-price-of-faith-economic-costs-and-religious-adaptation-in-sub-saharan-africa/)
 
 ## Work in progress
 
