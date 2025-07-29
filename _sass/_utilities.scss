@@ -104,6 +104,17 @@ body:hover .visually-hidden button {
   white-space: nowrap;
 }
 
+/* Custom Text Sizing */
+.text-x-small {
+  font-size: $type-size-8; // This will make it the smallest size from your variables
+  line-height: 1.2; // Optional: Adjust line height if it looks too cramped
+}
+
+.text-small { // You might want this for a slightly less small size, matching $type-size-7
+  font-size: $type-size-7;
+}
+
+// You could also define other sizes here, e.g., text-medium, text-large, etc.
 
 /*
    Alignment
