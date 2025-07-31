@@ -21,6 +21,8 @@ author_profile: true
 
 ## Graduate Student Instructor, University of Michigan (US)
 
+| Fall 2025 | [PUBPOL 330 - Microeconomics for Public Policy](https://fordschool.umich.edu/course/fall/2025/pubpol-330004-microeconomics-public-policy) |
+| Winter 2025 | [Econ 251 - Introduction to Statistics and Econometrics II]([https://google.com](https://secure.rackham.umich.edu/course-list/course-list.php?rackham=Y&program=Economics)) |
 | Fall 2024 | [PUBPOL 529 - Statistics]([https://google.com]([https://secure.rackham.umich.edu/course-list/course-list.php?rackham=Y&program=Economics](https://fordschool.umich.edu/courses/winter/2019/pubpol-529))) |
 | Winter 2024 | [Econ 251 - Introduction to Statistics and Econometrics II]([https://google.com](https://secure.rackham.umich.edu/course-list/course-list.php?rackham=Y&program=Economics)) |
 | Fall 2023 | [Econ 251 - Introduction to Statistics and Econometrics II]([https://google.com](https://secure.rackham.umich.edu/course-list/course-list.php?rackham=Y&program=Economics)) |
