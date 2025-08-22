@@ -13,9 +13,9 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 ## Publications
 
-[Becoming a Teacher: Experimental Evidence from an Information Intervention](http://dx.doi.org/10.18235/0013244)<br/>
+[Becoming a Teacher: Experimental Evidence from an Information Intervention](https://doi.org/10.1016/j.ijedudev.2025.103362)<br/>
 (with Mariana Alfonso, Matías Busso, Hugo R. Ñopo, and Antonella Rivera)<br/>
-*Accepted, International Journal of Educational Development*<br/>
+*Accepted for Publication, International Journal of Educational Development*<br/>
 
 ## Working papers
 
