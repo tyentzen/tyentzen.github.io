@@ -23,8 +23,6 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 (with Eduardo Montero and Dean Yang)<br/>
 Media: [BFI Research Brief](https://bfi.uchicago.edu/insights/the-price-of-faith-economic-costs-and-religious-adaptation-in-sub-saharan-africa/)
 
-## Work in progress
-
-Coping with Adversity: Life Cycle Shocks and Religiousness
+[The Roots of Faith: Early Life Droughts and Religious Commitment](files/Yentzen_Roots_of_Faith.pdf)
 
 
