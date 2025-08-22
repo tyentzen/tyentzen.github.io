@@ -23,6 +23,9 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 (with Eduardo Montero and Dean Yang)<br/>
 Media: [BFI Research Brief](https://bfi.uchicago.edu/insights/the-price-of-faith-economic-costs-and-religious-adaptation-in-sub-saharan-africa/)
 
-[The Roots of Faith: Early Life Droughts and Religious Commitment](files/Yentzen_Roots_of_Faith.pdf)
+[The Roots of Faith: Early Life Droughts and Religious Commitment](files/Yentzen_Roots_of_Faith.pdf)<br/>
+Media: IDB Research Insights 
+[(English)](https://publications.iadb.org/en/publications/english/viewer/Research-Insights-Do-the-Incentives-Provided-to-Current-Teachers-Affect-Future-Cohorts.pdf)
+[(Español)](https://publications.iadb.org/en/publications/spanish/viewer/Perspectivas-de-investigacion-pueden-los-incentivos-proporcionados-a-los-docentes-actuales-influir-en-las-decisiones-de-las-cohortes-futuras.pdf)
 
 
