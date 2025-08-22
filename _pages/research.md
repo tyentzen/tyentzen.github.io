@@ -16,6 +16,9 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 [Becoming a Teacher: Experimental Evidence from an Information Intervention](https://doi.org/10.1016/j.ijedudev.2025.103362)<br/>
 (with Mariana Alfonso, Matías Busso, Hugo R. Ñopo, and Antonella Rivera)<br/>
 *Accepted for Publication, International Journal of Educational Development*<br/>
+Media: IDB Research Insights 
+[(English)](https://publications.iadb.org/en/publications/english/viewer/Research-Insights-Do-the-Incentives-Provided-to-Current-Teachers-Affect-Future-Cohorts.pdf)
+[(Español)](https://publications.iadb.org/en/publications/spanish/viewer/Perspectivas-de-investigacion-pueden-los-incentivos-proporcionados-a-los-docentes-actuales-influir-en-las-decisiones-de-las-cohortes-futuras.pdf)
 
 ## Working papers
 
@@ -24,8 +27,6 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 Media: [BFI Research Brief](https://bfi.uchicago.edu/insights/the-price-of-faith-economic-costs-and-religious-adaptation-in-sub-saharan-africa/)
 
 [The Roots of Faith: Early Life Droughts and Religious Commitment](files/Yentzen_Roots_of_Faith.pdf)<br/>
-Media: IDB Research Insights 
-[(English)](https://publications.iadb.org/en/publications/english/viewer/Research-Insights-Do-the-Incentives-Provided-to-Current-Teachers-Affect-Future-Cohorts.pdf)
-[(Español)](https://publications.iadb.org/en/publications/spanish/viewer/Perspectivas-de-investigacion-pueden-los-incentivos-proporcionados-a-los-docentes-actuales-influir-en-las-decisiones-de-las-cohortes-futuras.pdf)
+
 
 
