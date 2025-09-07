@@ -192,31 +192,26 @@
         <p>&copy; 2025 Triana Yentzen. All rights reserved.</p>
     </footer>
 
-    <!-- Mobile Menu (Mobile Only) -->
-    <div class="fixed top-4 right-4 z-50 md:hidden">
-        <!-- Menu Button -->
-        <button id="menu-button" class="bg-gray-800 text-white p-3 rounded-full shadow-lg hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500">
-            &#9776;
-        </button>
-
-        <!-- Menu Links -->
-        <div id="menu-links" class="hidden absolute top-16 right-0 w-48 bg-white p-4 space-y-2 border border-gray-200">
-            <a href="#about" class="block text-gray-800 hover:text-gray-900 transition-colors duration-300">About</a>
-            <a href="#publications" class="block text-gray-800 hover:text-gray-900 transition-colors duration-300">Publications</a>
-            <a href="#working-papers" class="block text-gray-800 hover:text-gray-900 transition-colors duration-300">Working Papers</a>
-            <a href="#work-in-progress" class="block text-gray-800 hover:text-gray-900 transition-colors duration-300">Work in Progress</a>
-            <a href="#teaching" class="block text-gray-800 hover:text-gray-900 transition-colors duration-300">Teaching</a>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu-container" class="md:hidden">
+        <!-- Button and Container HTML for Mobile Menu -->
+        <div class="fixed top-4 left-4 z-50">
+            <button id="menu-button" class="bg-gray-800 text-white p-3 rounded-full shadow-lg hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500">
+                &#9776;
+            </button>
+        </div>
+        <div id="menu-overlay" class="hidden fixed top-0 left-0 w-full h-full bg-white z-40 flex flex-col justify-center items-center space-y-8">
+            <button id="close-menu" class="absolute top-6 right-6 text-gray-800 text-3xl focus:outline-none">&times;</button>
+            <a href="#about" class="text-3xl text-gray-800 hover:text-gray-900 transition-colors duration-300" onclick="closeMenu()">About</a>
+            <a href="#publications" class="text-3xl text-gray-800 hover:text-gray-900 transition-colors duration-300" onclick="closeMenu()">Publications</a>
+            <a href="#working-papers" class="text-3xl text-gray-800 hover:text-gray-900 transition-colors duration-300" onclick="closeMenu()">Working Papers</a>
+            <a href="#work-in-progress" class="text-3xl text-gray-800 hover:text-gray-900 transition-colors duration-300" onclick="closeMenu()">Work in Progress</a>
+            <a href="#teaching" class="text-3xl text-gray-800 hover:text-gray-900 transition-colors duration-300" onclick="closeMenu()">Teaching</a>
         </div>
     </div>
 
+
     <script>
-        const menuButton = document.getElementById('menu-button');
-        const menuLinks = document.getElementById('menu-links');
-
-        menuButton.addEventListener('click', () => {
-            menuLinks.classList.toggle('hidden');
-        });
-
         function toggleAbstract(abstractId, button) {
             const abstract = document.getElementById(abstractId);
             if (abstract.classList.contains('hidden')) {
@@ -227,7 +222,24 @@
                 button.textContent = 'Show Abstract';
             }
         }
+        
+        const menuButton = document.getElementById('menu-button');
+        const menuOverlay = document.getElementById('menu-overlay');
+        const closeMenuButton = document.getElementById('close-menu');
+
+        menuButton.addEventListener('click', () => {
+            menuOverlay.classList.remove('hidden');
+        });
+
+        closeMenuButton.addEventListener('click', () => {
+            menuOverlay.classList.add('hidden');
+        });
+
+        function closeMenu() {
+            menuOverlay.classList.add('hidden');
+        }
     </script>
 </body>
 </html>
+
 
