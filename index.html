@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+        .container {
+            max-width: 900px;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header Navigation (Desktop Only) -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-gray-800">Triana Yentzen</a>
+            <div class="hidden md:flex space-x-4">
+                <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">About</a>
+                <a href="#publications" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Publications</a>
+                <a href="#working-papers" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Working Papers</a>
+                <a href="#work-in-progress" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Work in Progress</a>
+                <a href="#teaching" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Teaching</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- About Section (now includes contact info) -->
+        <section id="about" class="bg-white rounded-lg shadow-md p-8 mb-12">
+            <div class="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
+                <div class="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden shadow-lg border-4 border-gray-200">
+                    <img src="Documents/profile_picture.png" alt="Your Photo" class="w-full h-full object-cover">
+                </div>
+                <div class="text-center md:text-left">
+                    <h1 class="text-3xl font-bold text-gray-900">Triana Yentzen</h1>
+                    <p class="text-xl text-gray-600 mt-2">PhD Candidate, University of Michigan. MPP</p>
+                    <p class="mt-4 text-gray-700 leading-relaxed max-w-2xl text-sm">
+                     I am an Economics Ph.D. Candidate at the University of Michigan interested in development and labor economics. I am from Santiago, Chile. I graduated from Universidad de Chile with a B.A. and M.S. in Economics. I also obtained a Master of Public Policy from the University of Michigan in 2021.
+                    </p>
+                    <p class="text-gray-700 mt-4"><span class="font-semibold">Email:</span> <a href="mailto:triana.yentzen@gmail.com" class="text-blue-600 hover:underline">triana.yentzen@gmail.com</a></p>
+                    <div class="mt-4 flex items-center space-x-4 justify-center md:justify-start">
+                        <a href="Documents/CV.pdf" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-sm">CV</a>
+                        <a href="https://www.linkedin.com/in/trianayentzen" target="_blank" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-sm">Linkedin</a>
+                        <a href="https://twitter.com/tyentzen" target="_blank" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-sm">Twitter</a>
+                        <a href="https://scholar.google.com/citations?user=6bUvgbIAAAAJ&hl=en" target="_blank" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-sm">Google Scholar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="bg-white rounded-lg shadow-md p-8 mb-12">
+            <h2 class="text-xl font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2">Publications</h2>
+
+            <!-- Publication Item 1 -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold text-gray-800">Becoming a Teacher: Experimental Evidence from an Information Intervention</h3>
+		<p class="text-gray-600 text-sm mt-1">with Mariana Alfonso, Matías Busso, Hugo R. Ñopo, and Antonella Rivera</p>
+                <p class="text-gray-600 text-sm mt-1">International Journal of Educational Development. Volume 118. October, 2025</p>
+
+                <p id="abstract-pub-1" class="text-gray-700 leading-relaxed max-w-2xl mt-2 hidden text-xs">
+                    Education systems seeking to improve outcomes must attract, develop, and retain highly effective teachers. A critical challenge is making the teaching profession appealing to talented youth. This paper presents evidence from an experiment in Peru, where we provided high school seniors with information about recent reforms to the teaching career. We find positive, though modest, effects on both the intensive and extensive margins: treated students were more likely to choose an education major and to enroll in higher education. While the intervention increased the number of prospective teachers, it did not substantially alter the profile of those entering the profession. These findings suggest that career incentives and information can influence students’ decisions, though broader changes to the composition of the future teaching workforce may require additional, complementary interventions.
+                </p>
+                <div class="flex flex-wrap items-center space-x-4 mt-2">
+                    <button onclick="toggleAbstract('abstract-pub-1', this)" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-sm">Show Abstract</button>
+                    <a href="https://doi.org/10.1016/j.ijedudev.2025.103362" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-sm">Paper</a> <span class="text-sm">IDB Research Insights</span> <a href="https://publications.iadb.org/en/publications/english/viewer/Research-Insights-Do-the-Incentives-Provided-to-Current-Teachers-Affect-Future-Cohorts.pdf" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-sm">English</a> <a href="https://publications.iadb.org/en/publications/spanish/viewer/Perspectivas-de-investigacion-pueden-los-incentivos-proporcionados-a-los-docentes-actuales-influir-en-las-decisiones-de-las-cohortes-futuras.pdf" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-sm">Español</a>
+                </div>
+            </div>
+            
+            <!-- Add more publications as needed -->
+
+        </section>
+        
+        <!-- Working Papers Section -->
+        <section id="working-papers" class="bg-white rounded-lg shadow-md p-8 mb-12">
+            <h2 class="text-xl font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2">Working Papers</h2>
+
+            <!-- Working Paper Item 1 -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold text-gray-800">The Price of Faith: Economic Costs and Religious Adaptation in Sub-Saharan Africa</h3>
+		<p class="text-gray-600 text-sm mt-1">with Eduardo Montero and Dean Yang</p>
+                <p class="text-gray-600 text-sm mt-1">NBER Working Paper. February, 2025</p>
+
+                <p id="abstract-wp-1" class="text-gray-700 leading-relaxed max-w-2xl mt-2 hidden text-xs">
+                    How do economic costs affect religious choices, and how do religious institutions adapt to economic realities? We study the Seventh-Day Adventist (SDA) church in Sub-Saharan Africa, which prohibits production of tobacco, coffee, and tea, creating salient opportunity costs for potential members in areas suitable for these crops. We construct a measure of SDA membership opportunity cost that varies over time and space based on local crop suitability and export prices. Using church administrative data and member surveys, we find that increased opportunity costs lead to lower membership growth and lower satisfaction with the church among existing members. The church responds by establishing new educational and health institutions and reducing emphasis on "healthy living" religious tenets. These findings reveal how religious organizations can show striking flexibility in balancing tradition and adaptation when faced with economic pressures. Our study provides new insights into the microeconomics of cultural change, as mediated by religious institutions. 
+                </p>
+                <div class="flex flex-wrap items-center space-x-4 mt-2">
+                    <button onclick="toggleAbstract('abstract-wp-1', this)" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-sm">Show Abstract</button>
+                    <a href="https://www.nber.org/papers/w33482" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-sm">View Paper</a>
+                </div>
+            </div>
+
+            <!-- Working Paper Item 2 -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold text-gray-800">The Roots of Faith: Early Life Droughts and Religious Commitment</h3>
+                <p class="text-gray-600 text-sm mt-1">September, 2025</p>
+                <p id="abstract-wp-2" class="text-gray-700 leading-relaxed max-w-2xl mt-2 hidden text-xs">
+                    Religion is a fundamental aspect of societal norms and values, yet its interplay with environmental shocks, particularly in the context of climate vulnerability, remains underexplored. This study investigates the long-term impact of drought exposure on religious expression and group affiliation in African countries. Using individual-level data from the Afrobarometer survey across over 30 nations, I exploit variation in drought exposure based on age and location, finding that individuals exposed to stronger droughts are more likely to be members of a religious group and actively participate. While a short-run effect is present for adults, the analysis reveals a persistent, long-term impact driven specifically by exposure during the formative teenage years. These findings are complemented by evidence that teenage drought exposure is also associated with a greater likelihood of obtaining formal education, working in agriculture, and trusting community-based institutions, suggesting a broad adaptation strategy.
+                </p>
+                <div class="flex flex-wrap items-center space-x-4 mt-2">
+                    <button onclick="toggleAbstract('abstract-wp-2', this)" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-sm">Show Abstract</button>
+                    <a href="Documents/Roots_of_Faith_Draft.pdf" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-sm">Draft</a>
+                </div>
+            </div>
+            
+            <!-- Add more working papers as needed -->
+
+        </section>
+
+        <!-- Work in Progress Section -->
+        <section id="work-in-progress" class="bg-white rounded-lg shadow-md p-8 mb-12">
+            <h2 class="text-xl font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2">Work in Progress</h2>
+
+            <!-- Work in Progress Item 1 -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold text-gray-800">Gender Differences in Educational Decisions Under Uncertainty</h3>
+                <p class="text-gray-600 text-sm mt-1">Status: In Progress</p>
+                <p class="text-gray-700 mt-2 leading-relaxed text-sm">
+
+                </p>
+            </div>
+
+               
+            <!-- Add more work in progress items as needed -->
+
+        </section>
+
+        <!-- Teaching Section -->
+        <section id="teaching" class="bg-white rounded-lg shadow-md p-8 mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2">Teaching</h2>
+
+            <div class="mb-8">
+                <p class="text-gray-800 font-bold mb-1">University of Michigan Ann Arbor, MI</p>
+                <div class="ml-4">
+                    <p class="text-gray-800 font-semibold text-sm">GUEST LECTURER <span class="text-gray-600 text-xs">Fall 2024</span></p>
+                    <ul class="list-disc list-inside mt-1 text-gray-700 text-sm">
+                        <li><a href="https://fordschool.umich.edu/course/fall/2024/pubpol-201001-systematic-thinking-problems-day" class="text-gray-800 hover:underline">PUBPOL 201 - Systematic Thinking: Problems of the Day (Global Poverty Module)</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mb-8">
+                <p class="text-gray-800 font-bold mb-1">University of Michigan Ann Arbor, MI</p>
+                <div class="ml-4">
+                    <p class="text-gray-800 font-semibold text-sm">GRADUATE STUDENT INSTRUCTOR <span class="text-gray-600 text-xs">2020 ‑ 2024</span></p>
+                    <ul class="list-disc list-inside mt-1 text-gray-700 text-sm">
+                        <li><a href="https://secure.rackham.umich.edu/course-list/course-list.php?rackham=Y&program=Economics" class="text-gray-800 hover:underline">ECON 251 - Introduction Statistics & Metric II</a></li>
+                        <li><a href="https://fordschool.umich.edu/course/fall/2025/pubpol-330004-microeconomics-public-policy" class="text-gray-800 hover:underline">PUBPOL 330 - Microeconomics (Honors)</a></li>
+                        <li><a href="https://fordschool.umich.edu/course/fall/2020/pubpol-479-evaluating-public-policies" class="text-gray-800 hover:underline">PUBPOL 479 - Evaluating Public Policies</a></li>
+                        <li><a href="https://fordschool.umich.edu/courses/winter/2019/pubpol-529" class="text-gray-800 hover:underline">PUBPOL 529 - Statistics (Standard)</a></li>
+                        <li><a href="https://fordschool.umich.edu/courses/fall/2014/pubpol-639" class="text-gray-800 hover:underline">PUBPOL 639 - Quantitative Methods of Program Evaluation (Augmented)</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mb-8">
+                <p class="text-gray-800 font-bold mb-1">Universidad Tecnica Federico Santa Maria Santiago, Chile</p>
+                <div class="ml-4">
+                    <p class="text-gray-800 font-semibold text-sm">LECTURER <span class="text-gray-600 text-xs">2013 ‑ 2015</span></p>
+                    <ul class="list-disc list-inside mt-1 text-gray-700 text-sm">
+                        <li><a href="https://telematica.usm.cl/wp-content/uploads/2020/12/ICS733-Econom%C3%ADa1A.pdf" class="text-gray-800 hover:underline">Introduction to Economics</a></li>
+                        <li><a href="https://cdn.miiusm.cl/sites/2/20210903180734/Plan-de-Estudios-Magister-en-Ciencias-de-la-Ingenieria-Industrial-MIISc-USM.pdf" class="text-gray-800 hover:underline">Intermediate Microeconomics</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <p class="text-gray-800 font-bold mb-1">Universidad de Chile Santiago, Chile</p>
+                <div class="ml-4">
+                    <p class="text-gray-800 font-semibold text-sm">TEACHING ASSISTANT <span class="text-gray-600 text-xs">2008 ‑ 2015</span></p>
+                    <ul class="list-disc list-inside mt-1 text-gray-700 text-sm">
+                        <li>Intermediate & Advanced Microeconomics, Intro and Intermediate Macroeconomics, International Trade.</li>
+                        <li>Urban and Environmental Policy (graduate).</li>
+                        <li>Conversation, Advanced, and Business English.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    
+    <footer class="bg-white text-gray-500 text-sm text-center py-4 mt-12 shadow-inner">
+        <p>&copy; 2025 Triana Yentzen. All rights reserved.</p>
+    </footer>
+
+    <!-- Mobile Menu (Mobile Only) -->
+    <div class="fixed top-4 right-4 z-50 md:hidden">
+        <!-- Menu Button -->
+        <button id="menu-button" class="bg-gray-800 text-white p-3 rounded-full shadow-lg hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500">
+            &#9776;
+        </button>
+
+        <!-- Menu Links -->
+        <div id="menu-links" class="hidden absolute top-16 right-0 w-48 bg-white p-4 space-y-2 border border-gray-200">
+            <a href="#about" class="block text-gray-800 hover:text-gray-900 transition-colors duration-300">About</a>
+            <a href="#publications" class="block text-gray-800 hover:text-gray-900 transition-colors duration-300">Publications</a>
+            <a href="#working-papers" class="block text-gray-800 hover:text-gray-900 transition-colors duration-300">Working Papers</a>
+            <a href="#work-in-progress" class="block text-gray-800 hover:text-gray-900 transition-colors duration-300">Work in Progress</a>
+            <a href="#teaching" class="block text-gray-800 hover:text-gray-900 transition-colors duration-300">Teaching</a>
+        </div>
+    </div>
+
+    <script>
+        const menuButton = document.getElementById('menu-button');
+        const menuLinks = document.getElementById('menu-links');
+
+        menuButton.addEventListener('click', () => {
+            menuLinks.classList.toggle('hidden');
+        });
+
+        function toggleAbstract(abstractId, button) {
+            const abstract = document.getElementById(abstractId);
+            if (abstract.classList.contains('hidden')) {
+                abstract.classList.remove('hidden');
+                button.textContent = 'Hide Abstract';
+            } else {
+                abstract.classList.add('hidden');
+                button.textContent = 'Show Abstract';
+            }
+        }
+    </script>
+</body>
+</html>
+
