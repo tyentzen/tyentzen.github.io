@@ -56,10 +56,10 @@
 
     <!-- Mobile Menu Overlay -->
     <div id="menu-overlay" class="hidden fixed top-0 left-0 w-full h-full bg-white z-40 flex flex-col justify-center items-center space-y-8">
-        <button id="close-menu" class="absolute top-6 left-6 text-gray-800 text-xl focus:outline-none">&times;</button>
-        <button onclick="showPage('about')" class="text-xl text-gray-800 hover:text-gray-900 transition-colors duration-300">About</button>
-        <button onclick="showPage('research')" class="text-xl text-gray-800 hover:text-gray-900 transition-colors duration-300">Research</button>
-        <button onclick="showPage('teaching')" class="text-xl text-gray-800 hover:text-gray-900 transition-colors duration-300">Teaching</button>
+        <button id="close-menu" class="absolute top-6 left-6 text-gray-800 text-3xl focus:outline-none">&times;</button>
+        <button onclick="showPage('about')" class="text-2xl text-gray-800 hover:text-gray-900 transition-colors duration-300">About</button>
+        <button onclick="showPage('research')" class="text-2xl text-gray-800 hover:text-gray-900 transition-colors duration-300">Research</button>
+        <button onclick="showPage('teaching')" class="text-2xl text-gray-800 hover:text-gray-900 transition-colors duration-300">Teaching</button>
     </div>
 
     <!-- Main Content Area -->
@@ -87,6 +87,23 @@
 
             <!-- About Section with full bio -->
             <section id="about" class="page active bg-white rounded-lg shadow-md p-8 mb-12">
+                <!-- About content for mobile screens -->
+                <div class="md:hidden flex flex-col items-center text-center">
+                    <div class="w-32 h-32 rounded-full overflow-hidden shadow-lg border-4 border-gray-200">
+                        <img src="Documents/profile_picture.png" onerror="this.src='https://placehold.co/192x192/f0f0f0/888888?text=Profile'" alt="Your Photo" class="w-full h-full object-cover">
+                    </div>
+                    <h2 class="text-2xl font-bold text-gray-900 mt-4">Triana Yentzen</h2>
+                    <p class="text-xl text-gray-600 mt-2">PhD Candidate, University of Michigan. MPP</p>
+                    <p class="text-gray-700 mt-4 text-sm"><span class="font-semibold">Email:</span> <a href="mailto:triana.yentzen@gmail.com" class="text-blue-600 hover:underline text-sm">triana.yentzen@gmail.com</a></p>
+                    <div class="mt-4 flex items-center space-x-4 justify-center md:justify-start">
+                        <a href="Documents/CV.pdf" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">CV</a>
+                        <a href="https://www.linkedin.com/in/trianayentzen" target="_blank" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">Linkedin</a>
+                        <a href="https://x.com/tyentzen" target="_blank" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">Twitter</a>
+                        <a href="https://scholar.google.com/citations?user=6bUvgbIAAAAJ&hl=en" target="_blank" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">Google Scholar</a>
+                    </div>
+                </div>
+                
+                <!-- The Bio text will be visible on both mobile and desktop -->
                 <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2">About</h2>
                 <p class="mt-4 text-gray-700 leading-relaxed max-w-2xl text-sm">
                 I am an Economics Ph.D. Candidate at the University of Michigan interested in development and labor economics. I am from Santiago, Chile. I graduated from Universidad de Chile with a B.A. and M.S. in Economics. I also obtained a Master of Public Policy from the University of Michigan in 2021.
