@@ -1,2 +1,0 @@
-# trianayentzen.github.io
-Website
