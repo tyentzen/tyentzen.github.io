@@ -57,9 +57,9 @@
     <!-- Mobile Menu Overlay -->
     <div id="menu-overlay" class="hidden fixed top-0 left-0 w-full h-full bg-white z-40 flex flex-col justify-center items-center space-y-8">
         <button id="close-menu" class="absolute top-6 left-6 text-gray-800 text-3xl focus:outline-none">&times;</button>
-        <button onclick="showPage('about')" class="text-2xl text-gray-800 hover:text-gray-900 transition-colors duration-300">About</button>
-        <button onclick="showPage('research')" class="text-2xl text-gray-800 hover:text-gray-900 transition-colors duration-300">Research</button>
-        <button onclick="showPage('teaching')" class="text-2xl text-gray-800 hover:text-gray-900 transition-colors duration-300">Teaching</button>
+        <button onclick="showPage('about')" class="text-xl text-gray-800 hover:text-gray-900 transition-colors duration-300">About</button>
+        <button onclick="showPage('research')" class="text-xl text-gray-800 hover:text-gray-900 transition-colors duration-300">Research</button>
+        <button onclick="showPage('teaching')" class="text-xl text-gray-800 hover:text-gray-900 transition-colors duration-300">Teaching</button>
     </div>
 
     <!-- Main Content Area -->
@@ -104,7 +104,7 @@
                 </div>
                 
                 <!-- The Bio text will be visible on both mobile and desktop -->
-                <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2">About</h2>
+                <h2 class="text-xl font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2">About</h2>
                 <p class="mt-4 text-gray-700 leading-relaxed max-w-2xl text-sm">
                 I am an Economics Ph.D. Candidate at the University of Michigan interested in development and labor economics. I am from Santiago, Chile. I graduated from Universidad de Chile with a B.A. and M.S. in Economics. I also obtained a Master of Public Policy from the University of Michigan in 2021.
                 </p>
@@ -112,9 +112,9 @@
 
             <!-- Research Section (Consolidates Publications, Working Papers, and Work in Progress) -->
             <section id="research" class="page bg-white rounded-lg shadow-md p-8 mb-12">
-                <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2">Research</h2>
+                <h2 class="text-xl font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2">Research</h2>
 
-                <h2 class="text-xl font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2">Publications</h2>
+                <h2 class="text-l font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2">Publications</h2>
 
                 <!-- Publication Item 1 -->
                 <div class="mb-6">
@@ -130,12 +130,12 @@
                         <a href="https://doi.org/10.1016/j.ijedudev.2025.103362" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">Paper</a>
                     </div>
                     <div class="flex flex-wrap items-center space-x-4 mt-2">
-                        <span class="text-xs">Media:</span> <span class="text-xs">IDB Research Insights</span> <a href="https://publications.iadb.org/en/publications/english/viewer/Research-Insights-Do-the-Incentives-Provided-to-Current-Teachers-Affect-Future-Cohorts.pdf" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">English</a> <a href="https://publications.iadb.org/en/publications/spanish/viewer/Perspectivas-de-investigacion-pueden-los-incentivos-proporcionados-a-los-docentes-actuales-influir-en-las-decisiones-de-las-cohortes-futuras.pdf" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">Español</a>
+                        <span class="text-xs">Media:</span> <span class="text-xs">IDB Research Insights</span> <a href="https://publications.iadb.org/en/publications/english/viewer/Research-Insights-Do-the-Incentives-Provided-to-Current-Teachers-Affect-Future-Cohorts.pdf" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">ENG</a> <a href="https://publications.iadb.org/en/publications/spanish/viewer/Perspectivas-de-investigacion-pueden-los-incentivos-proporcionados-a-los-docentes-actuales-influir-en-las-decisiones-de-las-cohortes-futuras.pdf" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">ESP</a>
                     </div>
                 </div>
                 
                 <!-- Working Papers Section -->
-                <h2 class="text-xl font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2 mt-8">Working Papers</h2>
+                <h2 class="text-l font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2 mt-8">Working Papers</h2>
 
                 <!-- Working Paper Item 1 -->
                 <div class="mb-6">
@@ -150,7 +150,9 @@
                         <button onclick="toggleAbstract('abstract-wp-1', this)" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">Show Abstract</button>
                         <a href="https://www.nber.org/papers/w33482" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">NBER Working Paper</a>
                     </div>
-            
+                    <div class="flex flex-wrap items-center space-x-4 mt-2">
+                        <span class="text-xs">Media:</span> <a href="https://bfi.uchicago.edu/insights/the-price-of-faith-economic-costs-and-religious-adaptation-in-sub-saharan-africa/" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">BFI Research Brief</a> 
+                    </div>
                 </div>
 
                 <!-- Working Paper Item 2 -->
@@ -167,7 +169,7 @@
                 </div>
                 
                 <!-- Work in Progress Section -->
-                <h2 class="text-xl font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2 mt-8">Work in Progress</h2>
+                <h2 class="text-l font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2 mt-8">Work in Progress</h2>
 
                 <!-- Work in Progress Item 1 -->
                 <div class="mb-6">
@@ -179,11 +181,12 @@
 
             <!-- Teaching Section -->
             <section id="teaching" class="page bg-white rounded-lg shadow-md p-8 mb-12">
-                <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2">Teaching</h2>
+                <h2 class="text-xl font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2">Teaching</h2>
 
                 <div class="mb-8">
-                    <p class="text-gray-800 font-bold mb-1">University of Michigan Ann Arbor, MI</p>
+                    <p class="text-gray-800 font-bold mb-1">University of Michigan</p>
                     <div class="ml-4">
+                        <p class="text-gray-800 font-semibold text-sm">Ann Arbor, MI. USA</p>
                         <p class="text-gray-800 font-semibold text-sm">GUEST LECTURER <span class="text-gray-600 text-xs">Fall 2024</span></p>
                         <ul class="list-disc list-inside mt-1 text-gray-700 text-sm">
                             <li><a href="https://fordschool.umich.edu/course/fall/2024/pubpol-201001-systematic-thinking-problems-day" class="text-gray-800 hover:underline">PUBPOL 201 - Systematic Thinking: Problems of the Day (Global Poverty Module)</a></li>
