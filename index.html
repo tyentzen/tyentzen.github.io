@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triana Yentzen</title>
+    <meta name="description" content="Triana Yentzen is a Ph.D. candidate in Economics at the University of Michigan studying religion, culture, and gender in economic development.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f8fafc;
@@ -17,18 +20,20 @@
         a:hover {
             text-decoration: underline;
         }
-        .leading-relaxed {
-            text-align: justify;
-        }
-        /* Styles for the single-page application behavior */
+        /* Single-page behavior: only the active section is shown */
         .page {
             display: none;
         }
         .page.active {
             display: block;
         }
+        /* Active navigation link */
+        .nav-link.active {
+            color: #111827;
+            font-weight: 600;
+        }
     </style>
-    
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XTL5K9WE6S"></script>
     <script>
@@ -46,44 +51,44 @@
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center relative">
             <div class="flex items-center space-x-2">
                 <!-- Mobile Menu Button -->
-                <button id="menu-button" class="md:hidden text-gray-800 text-2xl focus:outline-none z-50">&#9776;</button>
-                <a href="#" class="text-xl font-bold text-gray-800">Triana Yentzen</a>
+                <button id="menu-button" class="md:hidden text-gray-800 text-2xl focus:outline-none z-50" aria-label="Open menu">&#9776;</button>
+                <a href="#about" class="text-xl font-bold text-gray-800">Triana Yentzen</a>
             </div>
-            
+
             <!-- Desktop Navigation Links -->
             <div class="hidden md:flex space-x-4">
-                <button onclick="showPage('about')" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">About</button>
-                <button onclick="showPage('research')" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Research</button>
-                <button onclick="showPage('teaching')" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Teaching</button>
+                <a href="#about" class="nav-link text-gray-600 hover:text-gray-900 transition-colors duration-300" data-page="about">About</a>
+                <a href="#research" class="nav-link text-gray-600 hover:text-gray-900 transition-colors duration-300" data-page="research">Research</a>
+                <a href="#teaching" class="nav-link text-gray-600 hover:text-gray-900 transition-colors duration-300" data-page="teaching">Teaching</a>
             </div>
         </nav>
     </header>
 
     <!-- Mobile Menu Overlay -->
     <div id="menu-overlay" class="hidden fixed top-0 left-0 w-full h-full bg-white z-40 flex flex-col justify-center items-center space-y-8">
-        <button id="close-menu" class="absolute top-6 left-6 text-gray-800 text-3xl focus:outline-none">&times;</button>
-        <button onclick="showPage('about')" class="text-xl text-gray-800 hover:text-gray-900 transition-colors duration-300">About</button>
-        <button onclick="showPage('research')" class="text-xl text-gray-800 hover:text-gray-900 transition-colors duration-300">Research</button>
-        <button onclick="showPage('teaching')" class="text-xl text-gray-800 hover:text-gray-900 transition-colors duration-300">Teaching</button>
+        <button id="close-menu" class="absolute top-6 left-6 text-gray-800 text-3xl focus:outline-none" aria-label="Close menu">&times;</button>
+        <a href="#about" class="nav-link text-xl text-gray-800 hover:text-gray-900 transition-colors duration-300" data-page="about">About</a>
+        <a href="#research" class="nav-link text-xl text-gray-800 hover:text-gray-900 transition-colors duration-300" data-page="research">Research</a>
+        <a href="#teaching" class="nav-link text-xl text-gray-800 hover:text-gray-900 transition-colors duration-300" data-page="teaching">Teaching</a>
     </div>
 
     <!-- Main Content Area -->
     <div class="container mx-auto px-6 py-12 flex flex-col md:flex-row md:space-x-8">
-        
+
         <!-- Persistent Contact Info Panel -->
         <aside id="contact-panel" class="md:w-1/3 p-8 bg-white rounded-lg shadow-md mb-6 md:h-fit md:sticky md:top-24">
             <div class="flex flex-col items-center text-center">
-                <div class="w-42 h-42 rounded-full overflow-hidden shadow-lg border-4 border-gray-200">
-                    <img src="Documents/profile_picture.jpg" onerror="this.src='https://placehold.co/192x192/f0f0f0/888888?text=Profile'" alt="Your Photo" class="w-full h-full object-cover">
+                <div class="w-44 h-44 rounded-full overflow-hidden shadow-lg border-4 border-gray-200">
+                    <img src="Documents/profile_picture.jpg" onerror="this.src='https://placehold.co/192x192/f0f0f0/888888?text=Profile'" alt="Triana Yentzen" class="w-full h-full object-cover">
                 </div>
                 <h1 class="text-2xl font-bold text-gray-900 mt-4">Triana Yentzen</h1>
-                <p class="text-l text-gray-600 mt-2">Economics PhD Candidate, University of Michigan. MPP</p>
+                <p class="text-lg text-gray-600 mt-2">Ph.D. Candidate in Economics<br>University of Michigan</p>
                 <p class="text-gray-700 mt-4 text-sm"><span class="font-semibold">Email:</span> <a href="mailto:triana.yentzen@gmail.com" class="text-blue-600 hover:underline text-sm">triana.yentzen@gmail.com</a></p>
-                <div class="mt-4 flex items-center space-x-4 justify-center md:justify-start">
+                <div class="mt-4 flex flex-wrap items-center justify-center gap-2">
                     <a href="Documents/CV.pdf" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">CV</a>
-                    <a href="https://www.linkedin.com/in/trianayentzen" target="_blank" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">Linkedin</a>
-                    <a href="https://x.com/tyentzen" target="_blank" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">Twitter</a>
-                    <a href="https://scholar.google.com/citations?user=6bUvgbIAAAAJ&hl=en" target="_blank" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">Google Scholar</a>
+                    <a href="https://www.linkedin.com/in/trianayentzen" target="_blank" rel="noopener" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">LinkedIn</a>
+                    <a href="https://x.com/tyentzen" target="_blank" rel="noopener" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">X</a>
+                    <a href="https://scholar.google.com/citations?user=6bUvgbIAAAAJ&hl=en" target="_blank" rel="noopener" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">Google Scholar</a>
                 </div>
             </div>
         </aside>
@@ -94,17 +99,14 @@
             <section id="about" class="page active bg-white rounded-lg shadow-md p-8 mb-12">
                 <h2 class="text-xl font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2">About</h2>
                 <p class="mt-4 text-gray-700 leading-relaxed max-w-2xl text-sm">
-                    I am an Economics Ph.D. Candidate at the University of Michigan interested in development and labor economics.
+                    I am a Ph.D. candidate in Economics at the University of Michigan, advised by Dean Yang. My research studies how religion, culture, and gender shape economic development. My dissertation asks when people become religiously active, what religious membership costs them, and how religious institutions adapt to economic pressure, using large-scale microdata and quasi-experimental designs across Sub-Saharan Africa and Latin America. Related work examines cultural transmission among Japanese immigrants to Peru and a gender quota in Chile's centralized college admissions system.
                 </p>
                 <p class="mt-4 text-gray-700 leading-relaxed max-w-2xl text-sm">
-                    I am from Santiago, Chile. I graduated from Universidad de Chile with a B.A. and M.S. in Economics. I also obtained a Master of Public Policy from the University of Michigan in 2021.
+                    I am from Santiago, Chile. I hold a B.A. and an M.A. in Economics from Universidad de Chile and a Master of Public Policy from the University of Michigan. Before the Ph.D., I worked for eight years as a consultant in the World Bank's Poverty Group and as a research fellow at the Inter-American Development Bank, and as a research analyst in Chile's Secretariat of the Presidency.
                 </p>
-                <p class="mt-4 text-gray-700 leading-relaxed max-w-2xl text-sm">
-                    Previously worked for the World Bank's Poverty Group and the Inter-American Development Bank.
-                </p>
-                <div class="flex flex-wrap items-center space-x-4 mt-8">
-                    <button onclick="showPage('research')" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-base">Research</button>
-                    <button onclick="showPage('teaching')" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-base">Teaching</button>    
+                <div class="flex flex-wrap items-center gap-4 mt-8">
+                    <a href="#research" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-base">Research</a>
+                    <a href="#teaching" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-base">Teaching</a>
                 </div>
             </section>
 
@@ -112,92 +114,94 @@
             <section id="research" class="page bg-white rounded-lg shadow-md p-8 mb-12">
                 <h2 class="text-xl font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2">Research</h2>
 
-                <h2 class="text-l font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2">Publications</h2>
+                <!-- Working Papers -->
+                <h3 class="text-lg font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2">Working Papers</h3>
 
-                <!-- Publication Item 1 -->
+                <!-- Working Paper 1 -->
                 <div class="mb-6">
-                    <h3 class="text-base font-semibold text-gray-800">Becoming a Teacher: Experimental Evidence from an Information Intervention</h3>
-                    <p class="text-gray-600 text-sm mt-1">with Mariana Alfonso, <a href="https://www.matiasbusso.org/" class="text-gray-600 text-sm mt-1">Matías Busso</a>, Hugo R. Ñopo, and Antonella Rivera</p>
-                    <p class="text-gray-800 text-sm mt-1">International Journal of Educational Development. Volume 118. October, 2025</p>
-
-                    <p id="abstract-pub-1" class="text-gray-700 leading-relaxed max-w-2xl mt-2 hidden text-xs">
-                        Education systems seeking to improve outcomes must attract, develop, and retain highly effective teachers. A critical challenge is making the teaching profession appealing to talented youth. This paper presents evidence from an experiment in Peru, where we provided high school seniors with information about recent reforms to the teaching career. We find positive, though modest, effects on both the intensive and extensive margins: treated students were more likely to choose an education major and to enroll in higher education. While the intervention increased the number of prospective teachers, it did not substantially alter the profile of those entering the profession. These findings suggest that career incentives and information can influence students’ decisions, though broader changes to the composition of the future teaching workforce may require additional, complementary interventions.
-                    </p>
-                    <div class="flex flex-wrap items-center space-x-4 mt-2">
-                        <button onclick="toggleAbstract('abstract-pub-1', this)" class="inline-block px-2 py-1 bg-gray-50 text-gray-800 font-semibold border border-gray-800 hover:bg-gray-200 transition-colors duration-300 text-xs">Show Abstract</button>
-                        <a href="https://doi.org/10.1016/j.ijedudev.2025.103362" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">Paper</a>
-                    </div>
-                    <div class="flex flex-wrap items-center space-x-4 mt-2">
-                        <span class="text-xs">Media:</span> <span class="text-xs font-semibold">IDB Research Insights</span> <a href="https://publications.iadb.org/en/publications/english/viewer/Research-Insights-Do-the-Incentives-Provided-to-Current-Teachers-Affect-Future-Cohorts.pdf" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">ENG</a> <a href="https://publications.iadb.org/en/publications/spanish/viewer/Perspectivas-de-investigacion-pueden-los-incentivos-proporcionados-a-los-docentes-actuales-influir-en-las-decisiones-de-las-cohortes-futuras.pdf" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">ESP</a>
-                    </div>
-                </div>
-                
-                <!-- Working Papers Section -->
-                <h2 class="text-l font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2 mt-8">Working Papers</h2>
-
-                <!-- Working Paper Item 1 -->
-                <div class="mb-6">
-                    <h3 class="text-base font-semibold text-gray-800">The Price of Faith: Economic Costs and Religious Adaptation in Sub-Saharan Africa</h3>
-                    <p class="text-gray-600 text-sm mt-1">with <a href="https://www.eduardo-montero.com/" class="text-gray-600 text-sm mt-1">Eduardo Montero</a>, and <a href="https://deanyang-econ.github.io/deanyang/" class="text-gray-600 text-sm mt-1">Dean Yang</a></p>
-                    <p class="text-gray-800 text-sm mt-1">R&R, The Quarterly Journal of Economics</p>
+                    <h4 class="text-base font-semibold text-gray-800">The Price of Faith: Economic Costs and Religious Adaptation in Sub-Saharan Africa</h4>
+                    <p class="text-gray-600 text-sm mt-1">with <a href="https://www.eduardo-montero.com/" class="text-gray-600 text-sm mt-1">Eduardo Montero</a> and <a href="https://deanyang-econ.github.io/deanyang/" class="text-gray-600 text-sm mt-1">Dean Yang</a></p>
+                    <p class="text-gray-800 text-sm mt-1">Revise and resubmit, <em>The Quarterly Journal of Economics</em></p>
 
                     <p id="abstract-wp-1" class="text-gray-700 leading-relaxed max-w-2xl mt-2 hidden text-xs">
-                        How do economic costs affect religious choices, and how do religious institutions adapt to economic realities? We study the Seventh-day Adventist (SDA) church in Sub-Saharan Africa, which prohibits production of tobacco, coffee, and tea, creating opportunity costs for potential members in areas suitable for these crops. We construct a measure of SDA membership opportunity cost that varies over time and space based on local crop suitability and export prices. Using church administrative data and member surveys, we find that increased opportunity costs lead to lower membership growth and lower satisfaction with the church among existing members. Higher opportunity costs also cause establishment of new SDA educational and health institutions; church members to perceive less messaging about “healthy living” religious tenets; and higher church member consumption of prohibited goods. These findings provide new insights into the microeconomics of cultural change, as mediated by religious institutions. Religious organizations can show striking flexibility in balancing tradition and adaptation when faced with economic pressures. 
+                        How do economic costs affect religious choices, and how do religious institutions adapt to economic realities? We study the Seventh-day Adventist (SDA) church in Sub-Saharan Africa, which prohibits production of tobacco, coffee, and tea, creating opportunity costs for potential members in areas suitable for these crops. We construct a measure of SDA membership opportunity cost that varies over time and space based on local crop suitability and export prices. Using church administrative data and member surveys, we find that increased opportunity costs lead to lower membership growth and lower satisfaction with the church among existing members. Higher opportunity costs also cause establishment of new SDA educational and health institutions; church members to perceive less messaging about “healthy living” religious tenets; and higher church member consumption of prohibited goods. These findings provide new insights into the microeconomics of cultural change, as mediated by religious institutions. Religious organizations can show striking flexibility in balancing tradition and adaptation when faced with economic pressures.
                     </p>
-                    <div class="flex flex-wrap items-center space-x-4 mt-2">
-                        <button onclick="toggleAbstract('abstract-wp-1', this)" class="inline-block px-2 py-1 bg-gray-50 text-gray-800 font-semibold border border-gray-800 hover:bg-gray-200 transition-colors duration-300 text-xs">Show Abstract</button>
+                    <div class="flex flex-wrap items-center gap-2 mt-2">
+                        <button onclick="toggleAbstract('abstract-wp-1', this)" aria-expanded="false" aria-controls="abstract-wp-1" class="inline-block px-2 py-1 bg-gray-50 text-gray-800 font-semibold border border-gray-800 hover:bg-gray-200 transition-colors duration-300 text-xs">Show Abstract</button>
                         <a href="https://www.nber.org/papers/w33482" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">NBER Working Paper</a>
                     </div>
-                    <div class="flex flex-wrap items-center space-x-2 mt-2">
-                        <span class="text-xs">Media:</span> <a href="https://bfi.uchicago.edu/insights/the-price-of-faith-economic-costs-and-religious-adaptation-in-sub-saharan-africa/" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">BFI Research Brief</a> 
+                    <div class="flex flex-wrap items-center gap-2 mt-2">
+                        <span class="text-xs">Media:</span> <a href="https://bfi.uchicago.edu/insights/the-price-of-faith-economic-costs-and-religious-adaptation-in-sub-saharan-africa/" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">BFI Research Brief</a>
                     </div>
-                    <!-- Added Presentations space -->
-                    <div class="flex flex-wrap items-center space-x-2 mt-1">
-                        <span class="text-xs">Presentations:</span> 
+                    <div class="flex flex-wrap items-center gap-2 mt-1">
+                        <span class="text-xs">Presentations:</span>
                         <span class="text-xs text-gray-600 italic">ASREC 2025, CSAE 2025</span>
                     </div>
                 </div>
 
-                <!-- Working Paper Item 2 -->
+                <!-- Working Paper 2 -->
                 <div class="mb-6">
-                    <h3 class="text-base font-semibold text-gray-800">The Roots of Faith: Early Life Droughts and Religious Commitment</h3>
-                    <p class="text-gray-600 text-sm mt-1">September, 2025</p>
+                    <h4 class="text-base font-semibold text-gray-800">The Roots of Faith: Early Life Droughts and Religious Commitment in Africa</h4>
+                    <p class="text-gray-600 text-sm mt-1">June 2026</p>
                     <p id="abstract-wp-2" class="text-gray-700 leading-relaxed max-w-2xl mt-2 hidden text-xs">
-                        Religion is a fundamental aspect of societal norms and values, yet its interplay with environmental shocks, particularly in the context of climate vulnerability, remains underexplored. This study investigates the long-term impact of drought exposure on religious expression and group affiliation in African countries. Using individual-level data from the Afrobarometer survey across over 30 nations, I exploit variation in drought exposure based on age and location, finding that individuals exposed to stronger droughts are more likely to be members of a religious group and actively participate. While a short-run effect is present for adults, the analysis reveals a persistent, long-term impact driven specifically by exposure during the formative teenage years. These findings are complemented by evidence that teenage drought exposure is also associated with a greater likelihood of obtaining formal education, working in agriculture, and trusting community-based institutions, suggesting a broad adaptation strategy.
+                        When in the life cycle does economic adversity turn people toward religion? I combine individual-level data from three rounds of the Afrobarometer survey with a global drought index to construct a life-cycle measure of drought exposure for more than 113,000 individuals in 452 localities across 34 African countries, and exploit variation in the timing of droughts across birth cohorts within localities. Drought exposure during the teenage years durably raises the probability that an adult belongs to and actively participates in a religious group, while exposure in childhood or adulthood leaves no lasting effect. The effect operates on participation rather than identity: teenage drought does not change whether individuals identify with a religion, only whether they take part. The result is robust to alternative age brackets, to a migration-robust design that assigns exposure by ethnic homeland rather than current residence, and to a cohort panel that recovers the same short-run response to contemporaneous droughts. Teenage exposure also raises long-run trust in community-based institutions, while exposure in adulthood shifts educational attainment, suggesting that religious participation is one strand of a broader adaptation to environmental shocks.
                     </p>
-                    <div class="flex flex-wrap items-center space-x-4 mt-2">
-                        <button onclick="toggleAbstract('abstract-wp-2', this)" class="inline-block px-2 py-1 bg-gray-50 text-gray-800 font-semibold border border-gray-800 hover:bg-gray-200 transition-colors duration-300 text-xs">Show Abstract</button>
+                    <div class="flex flex-wrap items-center gap-2 mt-2">
+                        <button onclick="toggleAbstract('abstract-wp-2', this)" aria-expanded="false" aria-controls="abstract-wp-2" class="inline-block px-2 py-1 bg-gray-50 text-gray-800 font-semibold border border-gray-800 hover:bg-gray-200 transition-colors duration-300 text-xs">Show Abstract</button>
                         <a href="Documents/Roots_of_Faith_Draft.pdf" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">Draft</a>
                     </div>
-                    <!-- Added Presentations space -->
-                    <div class="flex flex-wrap items-center space-x-2 mt-1">
-                        <span class="text-xs">Presentations:</span> 
-                        <span class="text-xs text-gray-600 italic">MDev Conference Ann Arbor 2026, ASREC 2026, Universidad de Chile Graduate Student Workshop 2025</span>
+                    <div class="flex flex-wrap items-center gap-2 mt-1">
+                        <span class="text-xs">Presentations:</span>
+                        <span class="text-xs text-gray-600 italic">Michigan Development Conference 2026, ASREC 2026, Universidad de Chile Graduate Student Workshop 2025</span>
                     </div>
                 </div>
-                
-                <!-- Work in Progress Section -->
-                <h2 class="text-l font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2 mt-8">Work in Progress</h2>
 
-                <!-- Work in Progress Item 1 -->
+                <!-- Work in Progress -->
+                <h3 class="text-lg font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2 mt-8">Work in Progress</h3>
+
+                <!-- Work in Progress 1 -->
                 <div class="mb-6">
-                    <h3 class="text-base font-semibold text-gray-800">An Invitation to Apply: A Gender Quota in Centralized College Admissions</h3>
-                    <p class="text-gray-600 text-sm mt-1">Status: In Progress</p>
+                    <h4 class="text-base font-semibold text-gray-800">Seats Without Applicants: A Gender Quota in College Admissions</h4>
+                    <p class="text-gray-600 text-sm mt-1">Draft in preparation</p>
                     <p id="abstract-wip-1" class="text-gray-700 leading-relaxed max-w-2xl mt-2 hidden text-xs">
-                        Affirmative-action reserves are designed for settings where qualified members of the target group apply and are rationed out. I study a gender quota whose binding constraint turns out to be the supply of applicants rather than of seats. Since 2024, Chile's "More Women Scientists" (Más Mujeres Científicas) policy has attached supernumerary women-only seats to hundreds of STEM programs in the national centralized admissions system. In the first year, 47.5% of the reserved seats were awarded, and 42% of covered programs awarded none, because no eligible woman had listed them. The missing applications trace to field choice rather than aspirations: conditional on stating university aspirations, girls reach STEM admission at 42% of the boys' rate. Recomputing the assignment without the reserves, the filled seats placed 596 additional women in STEM with no student made worse off, and a third of the downstream beneficiaries of the resulting vacancy chains are men. The female share of applications to covered programs rises 1.9 percentage points, with flat pre-trends over a decade — a response driven by the targeted announcement rather than by improved admission odds. Reallocating the existing seats toward programs where eligible women apply would raise the policy's output by roughly half.
+                        Affirmative-action reserves are designed for settings where qualified members of the target group apply and are rationed out. I study a gender quota whose binding constraint turns out to be the supply of applicants rather than of seats. Since 2024, Chile's "More Women Scientists" (Más Mujeres Científicas) policy has attached supernumerary women-only seats to hundreds of STEM programs in the national centralized admissions system. In the first year, 47.5% of the reserved seats were awarded, and 42% of covered programs awarded none, because no eligible woman had listed them. The missing applications trace to field choice rather than aspirations: conditional on stating university aspirations, girls reach STEM admission at 42% of the boys' rate. Recomputing the assignment without the reserves, the filled seats placed 596 additional women in STEM with no student made worse off, and a third of the downstream beneficiaries of the resulting vacancy chains are men. The female share of applications to covered programs rises 1.9 percentage points, with flat pre-trends over a decade, a response driven by the targeted announcement rather than by improved admission odds. Reallocating the existing seats toward programs where eligible women apply would raise the policy's output by roughly half.
                     </p>
-                    <div class="flex flex-wrap items-center space-x-4 mt-2">
-                        <button onclick="toggleAbstract('abstract-wip-1', this)" class="inline-block px-2 py-1 bg-gray-50 text-gray-800 font-semibold border border-gray-800 hover:bg-gray-200 transition-colors duration-300 text-xs">Show Abstract</button>
+                    <div class="flex flex-wrap items-center gap-2 mt-2">
+                        <button onclick="toggleAbstract('abstract-wip-1', this)" aria-expanded="false" aria-controls="abstract-wip-1" class="inline-block px-2 py-1 bg-gray-50 text-gray-800 font-semibold border border-gray-800 hover:bg-gray-200 transition-colors duration-300 text-xs">Show Abstract</button>
                         <!-- Uncomment when the draft PDF is uploaded:
                         <a href="Documents/Seats_Without_Applicants_Draft.pdf" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">Draft</a>
                         -->
                     </div>
                 </div>
 
-                <!-- Work in Progress Item 2 -->
+                <!-- Work in Progress 2 -->
                 <div class="mb-6">
-                    <h3 class="text-base font-semibold text-gray-800">The Transmission Technology: Migration and Ethnic Identity</h3>
-                    <p class="text-gray-600 text-sm mt-1">Status: In Progress</p>
+                    <h4 class="text-base font-semibold text-gray-800">The Transmission Technology: Japanese Migration to Peru and the Persistence of Ethnic Identity</h4>
+                    <p class="text-gray-600 text-sm mt-1">Data collection and analysis in progress</p>
+                    <p class="text-gray-700 leading-relaxed max-w-2xl mt-2 text-xs">
+                        Nearly all economic research on cultural transmission studies migration from poor to rich countries. This project inverts that setting. Between 1899 and 1923, Japanese contract laborers were assigned to Peruvian haciendas through a centralized brokerage, creating quasi-random variation in where they settled and in whether they arrived in districts already home to Chinese communities that had come two generations earlier. Linking hacienda placement records for more than 21,000 migrants to the 1876 and 1940 Peruvian censuses and to the full-count 2017 census, I ask whether traits such as savings and educational investment persist more strongly when the minority culture is economically advantaged, and whether a culturally proximate prior minority reinforces or dilutes that persistence.
+                    </p>
+                </div>
+
+                <!-- Publications -->
+                <h3 class="text-lg font-bold text-gray-900 mb-6 border-b-2 border-gray-200 pb-2 mt-8">Publications</h3>
+
+                <!-- Publication 1 -->
+                <div class="mb-6">
+                    <h4 class="text-base font-semibold text-gray-800">Becoming a Teacher: Experimental Evidence from an Information Intervention</h4>
+                    <p class="text-gray-600 text-sm mt-1">with Mariana Alfonso, <a href="https://www.matiasbusso.org/" class="text-gray-600 text-sm mt-1">Matías Busso</a>, Hugo R. Ñopo, and Antonella Rivera</p>
+                    <p class="text-gray-800 text-sm mt-1"><em>International Journal of Educational Development</em>, Vol. 118, October 2025</p>
+
+                    <p id="abstract-pub-1" class="text-gray-700 leading-relaxed max-w-2xl mt-2 hidden text-xs">
+                        Education systems seeking to improve outcomes must attract, develop, and retain highly effective teachers. A critical challenge is making the teaching profession appealing to talented youth. This paper presents evidence from an experiment in Peru, where we provided high school seniors with information about recent reforms to the teaching career. We find positive, though modest, effects on both the intensive and extensive margins: treated students were more likely to choose an education major and to enroll in higher education. While the intervention increased the number of prospective teachers, it did not substantially alter the profile of those entering the profession. These findings suggest that career incentives and information can influence students’ decisions, though broader changes to the composition of the future teaching workforce may require additional, complementary interventions.
+                    </p>
+                    <div class="flex flex-wrap items-center gap-2 mt-2">
+                        <button onclick="toggleAbstract('abstract-pub-1', this)" aria-expanded="false" aria-controls="abstract-pub-1" class="inline-block px-2 py-1 bg-gray-50 text-gray-800 font-semibold border border-gray-800 hover:bg-gray-200 transition-colors duration-300 text-xs">Show Abstract</button>
+                        <a href="https://doi.org/10.1016/j.ijedudev.2025.103362" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">Paper</a>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-2 mt-2">
+                        <span class="text-xs">Media:</span> <span class="text-xs font-semibold">IDB Research Insights</span> <a href="https://publications.iadb.org/en/publications/english/viewer/Research-Insights-Do-the-Incentives-Provided-to-Current-Teachers-Affect-Future-Cohorts.pdf" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">ENG</a> <a href="https://publications.iadb.org/en/publications/spanish/viewer/Perspectivas-de-investigacion-pueden-los-incentivos-proporcionados-a-los-docentes-actuales-influir-en-las-decisiones-de-las-cohortes-futuras.pdf" class="inline-block px-2 py-1 bg-gray-200 text-gray-600 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300 text-xs">ESP</a>
+                    </div>
                 </div>
             </section>
 
@@ -208,7 +212,7 @@
                 <div class="mb-8">
                     <p class="text-gray-800 font-bold mb-1">University of Michigan</p>
                     <div class="ml-4">
-                        <p class="text-gray-800 font-semibold text-sm">Ann Arbor, MI. USA</p>
+                        <p class="text-gray-800 font-semibold text-sm">Ann Arbor, MI, USA</p>
                         <p class="text-gray-800 font-semibold text-sm">GUEST LECTURER <span class="text-gray-600 text-xs">Fall 2024</span></p>
                         <ul class="list-disc list-inside mt-1 text-gray-700 text-sm">
                             <li><a href="https://fordschool.umich.edu/course/fall/2024/pubpol-201001-systematic-thinking-problems-day" class="text-gray-800 hover:underline">PUBPOL 201 - Systematic Thinking: Problems of the Day (Global Poverty Module)</a></li>
@@ -219,20 +223,20 @@
                 <div class="mb-8">
                     <p class="text-gray-800 font-bold mb-1">University of Michigan</p>
                     <div class="ml-4">
-                        <p class="text-gray-800 font-semibold text-sm">Ann Arbor, MI. USA</p>
-                        <p class="text-gray-800 font-semibold text-sm">GRADUATE STUDENT INSTRUCTOR <span class="text-gray-600 text-xs">2020 ‑ 2024</span></p>
+                        <p class="text-gray-800 font-semibold text-sm">Ann Arbor, MI, USA</p>
+                        <p class="text-gray-800 font-semibold text-sm">GRADUATE STUDENT INSTRUCTOR <span class="text-gray-600 text-xs">2020 ‑ present</span></p>
                         <ul class="list-disc list-inside mt-1 text-gray-700 text-sm">
-                            <li><a href="https://secure.rackham.umich.edu/course-list/course-list.php?rackham=Y&program=Economics" class="text-gray-800 hover:underline">ECON 251 - Introduction Statistics & Metric II</a></li>
-                            <li><a href="https://fordschool.umich.edu/course/fall/2025/pubpol-330004-microeconomics-public-policy" class="text-gray-800 hover:underline">PUBPOL 330 - Microeconomics (Honors)</a></li>
+                            <li><a href="https://secure.rackham.umich.edu/course-list/course-list.php?rackham=Y&program=Economics" class="text-gray-800 hover:underline">ECON 251 - Introductory Statistics and Metrics II</a></li>
+                            <li><a href="https://fordschool.umich.edu/course/fall/2025/pubpol-330004-microeconomics-public-policy" class="text-gray-800 hover:underline">PUBPOL 330 - Microeconomics for Public Policy (Honors)</a></li>
                             <li><a href="https://fordschool.umich.edu/course/fall/2020/pubpol-479-evaluating-public-policies" class="text-gray-800 hover:underline">PUBPOL 479 - Evaluating Public Policies</a></li>
-                            <li><a href="https://fordschool.umich.edu/courses/winter/2019/pubpol-529" class="text-gray-800 hover:underline">PUBPOL 529 - Statistics (Standard)</a></li>
+                            <li><a href="https://fordschool.umich.edu/courses/winter/2019/pubpol-529" class="text-gray-800 hover:underline">PUBPOL 529 - Statistics</a></li>
                             <li><a href="https://fordschool.umich.edu/courses/fall/2014/pubpol-639" class="text-gray-800 hover:underline">PUBPOL 639 - Quantitative Methods of Program Evaluation (Augmented)</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="mb-8">
-                    <p class="text-gray-800 font-bold mb-1">Universidad Tecnica Federico Santa Maria</p>
+                    <p class="text-gray-800 font-bold mb-1">Universidad Técnica Federico Santa María</p>
                     <div class="ml-4">
                         <p class="text-gray-800 font-semibold text-sm">Santiago, Chile</p>
                         <p class="text-gray-800 font-semibold text-sm">LECTURER <span class="text-gray-600 text-xs">2013 ‑ 2015</span></p>
@@ -249,7 +253,7 @@
                         <p class="text-gray-800 font-semibold text-sm">Santiago, Chile</p>
                         <p class="text-gray-800 font-semibold text-sm">TEACHING ASSISTANT <span class="text-gray-600 text-xs">2008 ‑ 2015</span></p>
                         <ul class="list-disc list-inside mt-1 text-gray-700 text-sm">
-                            <li>Intermediate & Advanced Microeconomics, Intro and Intermediate Macroeconomics, International Trade.</li>
+                            <li>Intermediate and Advanced Microeconomics, Introductory and Intermediate Macroeconomics, International Trade.</li>
                             <li>Urban and Environmental Policy (graduate).</li>
                             <li>Conversation, Advanced, and Business English.</li>
                         </ul>
@@ -258,68 +262,63 @@
             </section>
         </main>
     </div>
-    
+
     <footer class="bg-white text-gray-500 text-sm text-center py-4 mt-12 shadow-inner">
-        <p>&copy; 2025 Triana Yentzen. All rights reserved.</p>
+        <p>&copy; 2026 Triana Yentzen. All rights reserved.</p>
     </footer>
 
     <script>
         function toggleAbstract(abstractId, button) {
             const abstract = document.getElementById(abstractId);
-            if (abstract.classList.contains('hidden')) {
-                abstract.classList.remove('hidden');
-                button.textContent = 'Hide Abstract';
-            } else {
-                abstract.classList.add('hidden');
-                button.textContent = 'Show Abstract';
-            }
+            const isHidden = abstract.classList.contains('hidden');
+            abstract.classList.toggle('hidden', !isHidden);
+            button.textContent = isHidden ? 'Hide Abstract' : 'Show Abstract';
+            button.setAttribute('aria-expanded', String(isHidden));
         }
-        
+
         const menuButton = document.getElementById('menu-button');
         const menuOverlay = document.getElementById('menu-overlay');
         const closeMenuButton = document.getElementById('close-menu');
+        const contactPanel = document.getElementById('contact-panel');
+        const validPages = ['about', 'research', 'teaching'];
 
-        menuButton.addEventListener('click', () => {
-            menuOverlay.classList.remove('hidden');
-        });
-
-        closeMenuButton.addEventListener('click', () => {
-            menuOverlay.classList.add('hidden');
-        });
+        menuButton.addEventListener('click', () => menuOverlay.classList.remove('hidden'));
+        closeMenuButton.addEventListener('click', () => menuOverlay.classList.add('hidden'));
 
         function showPage(pageId) {
-            const pages = document.querySelectorAll('.page');
-            pages.forEach(page => {
-                page.classList.remove('active');
+            if (!validPages.includes(pageId)) pageId = 'about';
+
+            document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
+            document.getElementById(pageId).classList.add('active');
+
+            // Highlight the current page in both navigation menus
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.toggle('active', link.dataset.page === pageId);
             });
-            const activePage = document.getElementById(pageId);
-            if (activePage) {
-                activePage.classList.add('active');
-            }
+
             // On mobile, only show the contact panel on the About page
-            const contactPanel = document.getElementById('contact-panel');
             if (window.innerWidth < 768) {
-                if (pageId === 'about') {
-                    contactPanel.classList.remove('hidden');
-                } else {
-                    contactPanel.classList.add('hidden');
-                }
+                contactPanel.classList.toggle('hidden', pageId !== 'about');
             }
+
             // Close mobile menu if open
-            if (!menuOverlay.classList.contains('hidden')) {
-                menuOverlay.classList.add('hidden');
-            }
-            // Scroll to top when switching pages
+            menuOverlay.classList.add('hidden');
+
             window.scrollTo(0, 0);
         }
 
-        window.onload = () => showPage('about');
+        // Route by URL hash so pages are linkable and the Back button works.
+        // Nav links are ordinary anchors (href="#research"), so clicking them
+        // changes the hash and this listener does the rest.
+        function routeFromHash() {
+            showPage((location.hash || '#about').slice(1));
+        }
+        window.addEventListener('hashchange', routeFromHash);
+        window.addEventListener('load', routeFromHash);
 
-        // On resize to desktop, ensure contact panel is always visible
+        // On resize to desktop, ensure the contact panel is always visible
         window.addEventListener('resize', () => {
-            if (window.innerWidth >= 768) {
-                document.getElementById('contact-panel').classList.remove('hidden');
-            }
+            if (window.innerWidth >= 768) contactPanel.classList.remove('hidden');
         });
     </script>
 </body>
